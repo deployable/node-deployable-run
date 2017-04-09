@@ -1,5 +1,5 @@
 {
-  "name": "node-deployable-run",
+  "name": "@deployable/run",
   "version": "0.0.1",
   "description": "run a process",
   "main": "run.js",
