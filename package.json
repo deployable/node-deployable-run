@@ -1,0 +1,9 @@
+{
+  "name": "node-deployable-run",
+  "version": "0.0.1",
+  "description": "run a process",
+  "main": "run.js",
+  "repository": "https://github.com/deployable/node-deployable-run.git",
+  "author": "Matt Hoyle <code atat deployable.co>",
+  "license": "MIT"
+}
