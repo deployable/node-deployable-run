@@ -46,12 +46,12 @@ Run[92066] Failed: ["ls","sp ace"]
 
 ### `Run.startLog(command)`
 
-Log state of command and errors
+Log the start of command and any errors
 
 ### `Run.fullLog(command)`
 
-Log stdout and stderr while running
+Log the start of a command, stdout and stderr while running, and end
 
 ### `Run.postLog(command)`
 
-Log stdout and stderr after completion
+Log the start and end. Log stdout and stderr after completion.
