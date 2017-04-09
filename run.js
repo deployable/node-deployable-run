@@ -33,6 +33,13 @@ class Run {
     console.log('Run[%s] %s: %s', pid, tag, msg)
   }
 
+  static startLog(...command){
+    let run = new Run({
+      log_start: true,
+      log_end_failure: true
+    })
+    return run.run(...command)
+  }
   static fullLog(...command){
     let run = new Run({
       log_start: true,
