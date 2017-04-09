@@ -21,3 +21,10 @@ genRunCmd('ls')()
 
 ```
 
+```
+Run[90629] Running: ["ls"]
+Run[90629] stdout: error-goog.png
+Run[90629] stdout: search-bing.png
+Run[90629] stdout: search.js
+Run[90629] Finished: ["ls"]
+```
