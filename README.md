@@ -1,8 +1,7 @@
 Run a process, store it's output, log things
 
 ```javascript
-const Promise = require('bluebird')
-const {Run, RunRcError, RunError} = require('../run')
+const {Run, RunRcError, RunError} = require('@deployable/run')
 
 function genRunCmd(...cmd){
   return function(){
